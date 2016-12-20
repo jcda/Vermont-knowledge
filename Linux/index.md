@@ -1,7 +1,10 @@
-# English version
+# Linux Subsection
 
+1. [Getting Started](./gettingStarted.md)
+1. [Administration](./administration.md)
+1. [Data Science](./dataScience.md)
+1. [CLI](./cli.md)
 #Intro
-## Purpose of this document/set of documents
 
 #Linux Distributions
 ## What is a ditribution and what it means
