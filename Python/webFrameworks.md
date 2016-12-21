@@ -15,7 +15,7 @@ Django is a framework created for web developers on a deadline. Its idea is to g
     By default it'll work with a SQLite system and a Postgresql database will be highly recommended for a production environment, but all databases are supported.
 
 1. Drawbacks:
-    Lots of modules and addons have been developped for Django, some are current, some not maintained anymore, Also, sometimes the existing third party functionlaities 
+    Lots of modules and addons have been developped for Django, some are current, some not maintained anymore, Also, sometimes the existing third party functionlaities
 
 1. Installation Process:
 
@@ -35,7 +35,7 @@ Django is a framework created for web developers on a deadline. Its idea is to g
     - [The Django project home page](https://www.djangoproject.com/)
     - [The Django Documentation](https://docs.djangoproject.com)
     - [ The Django Official tutorial](https://docs.djangoproject.com/en/1.10/intro/) <- Note, this is for the 1.10 version (the latest at the day this document was writen)
-
+    - Django packages list
 
 [2]: Flask
 # Flask

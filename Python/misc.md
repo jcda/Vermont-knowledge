@@ -33,4 +33,4 @@ Namespaces are one honking great idea -- let's do more of those!
 
 1. [Django weekly news](http://djangoweekly.com/newsletter/no/12/)
 
-1. Awesome Django
+1. [Awesome Django](https://gitlab.com/rosarior/awesome-django)

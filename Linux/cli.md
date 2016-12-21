@@ -8,6 +8,7 @@
 1. webtools
     1. curl
     1. mutt
+    1. pine/alpine
     1. irssi
 
 1. archives
