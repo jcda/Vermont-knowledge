@@ -33,3 +33,9 @@
     1. ps
     1. top
     1. kill
+
+1. Filesystems
+    1. find
+    1. lsof
+    1. chmod
+    1. selinux
