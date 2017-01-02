@@ -8,24 +8,24 @@
 
 
 - [Webtools](#Webtools)
-    1. curl
+    1. [curl](#curl)
     1. [mutt](#mutt)
-    1. pine
-    1. irssi
-    1. git
+    1. [pine](#pine)
+    1. [irssi](#irssi)
+    1. [git](#git)
 
 - [Archives](#Archives)
-    1. xz
-    1. gz
-    1. bz
+    1. [xz](#xz)
+    1. [gz](#gz)
+    1. [bz](#bz)
     1. [tar](#tar)
-- Editors
+- [Editors](#editors)
 
-- Checksums
+- [Checksums](#checksums)
 
 
 
-1. ### Terminal <a name=terminal></a>
+* ### Terminal <a name=terminal></a>
     1. #### ssh/scp <a name=ssh></a>
         TBC
     1. #### tmux <a name=tmux></a>
@@ -35,7 +35,7 @@
     1. #### script (command) <a name=script></a>
         TBC
 
-1. ### Webtools <a name=webtools></a>
+* ### Webtools <a name=webtools></a>
     1. #### curl <a name=curl></a>
         TBC
     1. #### mutt <a name=mutt></a>
@@ -58,7 +58,7 @@
         its basic functionalities will be tracking a project, reversing a modification, storing multiple versions of the project, helping to handle conflicts in the code.
         a tutorial to learn git basics https://try.github.io/levels/1/challenges/1
 
-1. ### Archives <a name=Archives></a>
+* ### Archives <a name=Archives></a>
 
     1. #### xz <a name=xz></a>
         TBC
@@ -75,10 +75,14 @@
 
 
 
-1. ### Editors <a name=editors></a>
-    - vim
-    - emacs
+* ### Editors <a name=editors></a>
+    1. #### vim <a name=vim></a>
+        TBC
+    1. #### emacs <a name=emacs></a>
+        TBC
 
-1. Checksums
-    1. sha1
-    1. md5
+* ### Checksums <a name=checksums></a>
+    1. #### sha1 <a name=sha1></a>
+        TBC
+    1. #### md5  <a name=md5></a>
+        TBC
