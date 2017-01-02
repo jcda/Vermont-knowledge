@@ -1,14 +1,43 @@
 #CLI
 
+- Terminal
+    1. [ssh/scp](#ssh)
+    1. [tmux]
+    1. [screen]
+    1. [script]
+
+
+- Webtools
+    1. curl
+    1. [mutt](#mutt)
+    1. pine
+    1. irssi
+    1. git
+
+- [Archives](#Archives)
+    1. xz
+    1. gz
+    1. bz
+    1. [tar](####tar)
+- Editors
+
+- Checksums
+
+
+
 1. Terminal
-    1. ssh/scp
+    1. #### ssh/scp
+    [ssh]
     1. tmux
+    [tmux]
     1. screen
+    [screen]
     1. script (command)
+    [srcipt]
 
 1. Webtools
     1. curl
-    1. mutt
+    1. #### mutt <a name=mutt> </a>
         Is a CLI interface mail client. It supports encryption, and also had features such as address book.
         The text configuration file is easy to edit and lots of examples are available on the web. Lots of them are also to access a Gmail account. The configuration will be stored in a `.muttrc` file in the $HOME directory of the user.
         If no .muttrc file is available the local mail server will be used.
@@ -27,11 +56,19 @@
         its basic functionalities will be tracking a project, reversing a modification, storing multiple versions of the project, helping to handle conflicts in the code.
         a tutorial to learn git basics https://try.github.io/levels/1/challenges/1
 
-1. Archives
+1. ### Archives
+
     1. xz
     1. gz
     1. bz
-    1. tar
+    #### tar
+    Tar was originally designed for tape archives, but became a de-facto standard for creating a file archive, there are multiple options to use it in a CLI environment, and it can also be combined with other compression tools.
+    here is an example of command of creation and expansion:
+        - `tar -cvjf ~/test-archive-$(date "+%Y-%m-%d-%H-%M").tbz /var/log` will create a compressed archive in the user's home Directory containing the logs.
+        - `tar -tf ~/test-archive-2017-01-02-09-05.tbz` will list all the contends of this archive.
+        - `tar -xvjf ~/test-archive-2017-01-02-09-05.tbz` will uncompress the contend of this archive in the current folder ( type `pwd` to see where you are if it isn't obvious)
+
+
 
 1. Editors
     - vim
