@@ -1,5 +1,5 @@
 ### Goals of this document
-The main goal of this document is to provide a step by step of components to add to an installation of CentOS from the minimal ISO image, so that Virtualbox features are enabled:
+The main goal of this document is to provide a step by step of components to add to an installation of CentOS or Fedora from the minimal ISO image, so that Virtualbox features are enabled:
 
 - Have a direct access to the virtual host via ssh or test http services from the management machine.
 
@@ -11,6 +11,7 @@ The main goal of this document is to provide a step by step of components to add
 . An installation ISO for CentOS
 
 ### Steps
+
 #### . Creation of a new image
 #### . Add a new interface for "Host Only adapter"
 #### . Installation of the CentOS basic 
@@ -54,9 +55,49 @@ still as root launch the following command:
 
 ```cd /media && ./VBoxLinuxAdditions.run```
 
-This will compile the kernel modules and (optionally, if you installed the GUI environment with the development packags for it ... ) the X modules that enables resizing on the fly.
+This will compile the kernel modules and (optionally, if you installed the GUI environment with the development packages for it ... ) the X modules that enables resizing on the fly.
  
 
 #### . Create and add a shared directory between your host and your guest
 
+in the bottom right corner, you can see the icon for the shared directory.
+
+when starting a new Virtual Guest, it should be "ghosted"
+
+![](Pics/vbox-bottombar-file1.png)
+
+When you clic on it, a contextual menu should appear
+
+![](Pics/vbox-bottombar-file2.png)
+
+Put your pointer on this and clic on it
+
+![](Pics/vbox-shared-folder1.png)
+
+Clic on the "add folder" icon on the right
+
+A new window appears with the settings of the shared directory.
+
+![](Pics/vbox-shared-folder2.png)
+
+Put the valuesof the directory you want to share.
+by default, I'd recommend Auto-mount and Make permanent options.
+
+![](Pics/vbox-shared-folder3.png)
+
+And press **OK**
+
+The next window will be now on the front
+
+![](Pics/vbox-shared-folder4.png)
+
+And press **OK** again
+
+After the next reboot, this will be taken in account.
+
+
 #### . Access to this Directory
+
+from now on, the root user will be able to access the shared folder through the path **/mnt/sf_shared-folder/
+
+**Enjoy !**
