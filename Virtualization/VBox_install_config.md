@@ -43,6 +43,8 @@ This is to use the latest kernel, as the Virtualbox scripts will query the kerne
 
 after you selected the ***Devices->Insert Guest Addition CD in the virtual*** window menu
 
+![Pics/vbox-menu-insert-CD.png](Pics/vbox-menu-insert-CD.png)
+
 open a terminal as **root** and type the following command:
 
 ``` mount /dev/sr0 /media ```
